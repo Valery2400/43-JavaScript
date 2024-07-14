@@ -10,6 +10,7 @@ export default function MyForm() {
       <MyInput label={'Действительная почта:'} placeholder={'email'} type={'email'} name={'email'}  />
       <MyInput label={'Ваш пароль:'} placeholder={'password'} type={'password'} name={'password'} />
       <MyButton name={'Отправить форму'} type={'submit'}  />
+      <MyButton name={'Очистить форму'} type={'reset'}  />
     </form>
   );
 }

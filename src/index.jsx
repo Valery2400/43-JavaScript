@@ -2,18 +2,21 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./app/App";
 import "./index.css";
-import Lesson01 from './lessons/lesson_01/Lesson01';
+// import Lesson01 from './lessons/lesson_01/Lesson01';
 // import Lesson02 from './lessons/lesson_02/Lesson02';
 // import Lesson04 from "./lessons/lesson_04/Lesson04";
+// import Homework04 from "./homeworks/Homework04";
+import MyForm from "./components/myForm/MyForm";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
     <App />
-    <Lesson01 />
+    {/* <Lesson01 /> */}
     
     {/* <Lesson02/> */}
-    {/* <MyForm/> */}
+    <MyForm/>
     {/* <Counter /> */}
     {/* <Homework04 /> */}
     {/* <Lesson03 /> */}
